@@ -34,10 +34,10 @@ body {
 .text-color-1 {
   color: #e95a08;
 }
-.dark-2{
-    font-size: 1.37rem;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
+.dark-2 {
+  font-size: 1.37rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
 }
 /* navbar part */
 .cart-nav {
@@ -70,16 +70,46 @@ body {
 .banner-2 {
   margin-top: 106px;
 }
-.banner-image {
-  max-height: 355px;
-  max-width: auto;
-}
+
 .banner-title {
   font-size: 4rem;
   font-weight: 700;
-  margin-bottom: 13PX;
+  margin-bottom: 13px;
   padding: 0;
 }
-.banner-paragraph{
-    margin-bottom: 0;
+.banner-paragraph {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .banner,
+  .navbar,
+  .nav-items {
+    flex-direction: column;
+  }
+  .navbar{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .banner-image{
+    max-width: auto;
+  }
+  .banner-1 {
+    order: 2;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .nav-item {
+    display: none;
+  }
+  .banner-title{
+    font-size: 1.5rem;
+  }
+  .banner-paragraph{
+    font-size: 0.9rem;
+  }
+  .banner-image{
+    width: auto;
+  }
+
 }
