@@ -82,6 +82,66 @@ body {
   margin-bottom: 0;
 }
 
+/* plants cart section */
+.plants{
+  margin-top: 120px;
+  margin-bottom: 210px;
+}
+.plants-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.plants-paragraph{
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+.plant-name {
+  font-size: 22px;
+  font-weight: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.plant-price {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #e95a08;
+  padding: 26px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 0px;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background: #b74011 ;
+  transform: translateY(-3px);
+}
+.plant-carts{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1.25rem;
+  row-gap: 30px;
+  margin-top: 40px;
+}
+.plant-cart{
+  row-gap: 20px;
+  text-align: center;
+}
+ .img-title{
+  width: 16.87rem;
+ }
+
+
+
 @media screen and (max-width: 576px) {
   .banner {
     flex-direction: column;
@@ -99,7 +159,7 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .banner-2{
+  .banner-2 {
     margin-top: 28px;
   }
   .nav-item {
