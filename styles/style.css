@@ -250,6 +250,7 @@ body {
   }
   .plants {
     margin-top: 65px;
+    margin-bottom: 41.5px;
   }
   .plant-name {
     font-size: 1rem;
@@ -258,5 +259,19 @@ body {
   .plant-price {
     font-size: 1rem;
     font-weight: 700;
+  }
+  .flowers-lover{
+    display: flex;
+    flex-direction: column;
+    margin:41.5px 16px 143px 16px;
+  }
+  .flower-lover-badge{
+    display: none;
+  }
+  .flower-lover-description{
+    margin-top: 18px;
+  }
+  .flower-lover-image{
+    max-width: 100%;
   }
 }
