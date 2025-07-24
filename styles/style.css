@@ -44,6 +44,12 @@ body {
   gap: 10px;
   list-style: none;
   padding: 0px;
+  text-decoration: none;
+}
+.cart-nav-item {
+  text-decoration: none;
+  list-style: none;
+  color: rgba(0, 0, 0, 1);
 }
 .nav-items {
   text-decoration: none;
@@ -54,6 +60,21 @@ body {
   text-decoration: none;
   margin-right: 3rem;
 }
+/* .nav-item:hover {
+  transform: translateY(-3px);
+} */
+.hover-link {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease; 
+}
+
+.hover-link:hover {
+  color: #e63946; 
+  transform: translateY(-3px); 
+}
+
 .navbar {
   justify-content: space-between;
   align-items: center;
@@ -189,7 +210,6 @@ body {
   max-height: 32.56rem;
 }
 
-
 /* ---responsive part--- */
 @media screen and (max-width: 576px) {
   .banner {
@@ -260,18 +280,18 @@ body {
     font-size: 1rem;
     font-weight: 700;
   }
-  .flowers-lover{
+  .flowers-lover {
     display: flex;
     flex-direction: column;
-    margin:41.5px 16px 143px 16px;
+    margin: 41.5px 16px 143px 16px;
   }
-  .flower-lover-badge{
+  .flower-lover-badge {
     display: none;
   }
-  .flower-lover-description{
+  .flower-lover-description {
     margin-top: 18px;
   }
-  .flower-lover-image{
+  .flower-lover-image {
     max-width: 100%;
   }
 }
