@@ -309,7 +309,7 @@ body {
   font-size: 50px;
   font-weight: 700;
   padding: 0;
-  margin: 0;
+  margin-bottom: 20px;
   color: white;
 }
 .bunch-box {
@@ -328,24 +328,28 @@ body {
   /* gap: 20px; */
 }
 .email {
-  padding: 8px 20px;
-  margin-right: 0px;
+  /* padding: 8px 20px; */
+  /* margin-right: 0px; */
   border: none;
-  height: 49px;
-  width: 644px;
-  font-size: 16px;
+  height: 2.95rem;
+  width: 40.25rem; 
+  font-size: 1rem;
   font-weight: 400;
   transition: all 0.3s ease;
 }
 .email:hover{
   transform: translateY(-3px);
 }
+.email::placeholder {
+  padding-left: 20px;
+}
 .subscribe {
-  padding: 24px 48px;
-  margin-left: 0px;
+  /* padding: 24px 48px; */
   border: none;
+  height: 3.06rem;
+  width: 11.625rem;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -356,9 +360,6 @@ body {
   background:#b74011;
 }
 
-/* .bunch-img {
-  margin-left: -150px;
-} */
 
 /* ---responsive part--- */
 @media screen and (max-width: 576px) {
@@ -434,6 +435,7 @@ body {
   }
 
   /* flower and plant lover section */
+
   .flowers-lover {
     display: flex;
     flex-direction: column;
@@ -457,6 +459,7 @@ body {
   }
 
   /* latest deals section */
+
   .latest-deals {
     display: flex;
     flex-direction: column;
@@ -484,5 +487,36 @@ body {
     font-size: 16px;
     font-weight: 600;
     padding: 10px 40px;
+  }
+
+  /* colorful bunch section */
+
+  .colorful-bunch{
+    margin-top: 40px;
+    max-width: 100%;
+  }
+  .bunch-title{
+    font-size: 20px;
+    margin-bottom: 17px;
+  }
+   .email{
+    width: 13.62rem;
+   }
+   .subscribe{
+    width: 6.4375rem;
+   }
+  .bunch-img{
+    max-width: 100%;
+  }
+  .email-btn{
+    display: flex;
+    flex-direction: row;
+  }
+  .bunch-element{
+    display: flex;
+    flex-direction: column;   
+  }
+  .bunch-box{
+    max-width: 100%;
   }
 }
