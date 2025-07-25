@@ -212,8 +212,8 @@ body {
 }
 
 /* latest deals section */
-.latest-deals{
-  margin-bottom:120px;
+.latest-deals {
+  margin-bottom: 120px;
 }
 .latest-deals-title {
   margin-bottom: 16px;
@@ -306,6 +306,38 @@ body {
   padding: 10px 40px;
 }
 
+/* colorful bunch section */
+
+.bunch-title {
+  font-size: 50px;
+  font-weight: 700;
+  /* text-align: center; */
+  /* color: white; */
+}
+.bunch-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email {
+  padding: 8px 20px;
+  gap: 10;
+  height: 50px;
+  width: 644px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.subscribe {
+  padding: 26px 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #e95a08;
+}
+.bunch-img {
+  margin-left: -150px;
+}
+
 /* ---responsive part--- */
 @media screen and (max-width: 576px) {
   .banner {
@@ -343,7 +375,6 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-
 
   /* plants section */
   .plants-title {
@@ -395,39 +426,39 @@ body {
   .flower-lover-image {
     max-width: 100%;
   }
-  .flower-lover-title{
+  .flower-lover-title {
     font-size: 24px;
     margin-bottom: 16px;
   }
-  .flower-lover-paragraph{
+  .flower-lover-paragraph {
     font-size: 14px;
   }
 
   /* latest deals section */
-  .latest-deals{
+  .latest-deals {
     display: flex;
     flex-direction: column;
-    margin:100px 16px 0px 16px ;
+    margin: 100px 16px 0px 16px;
   }
-  .latest-deals-title{
+  .latest-deals-title {
     font-size: 24px;
     margin-bottom: 16px;
   }
-  .latest-deals-paragraph{
-    font-size:14px ;
+  .latest-deals-paragraph {
+    font-size: 14px;
     margin-top: 0px;
     margin-bottom: 50px;
   }
-  .deals-img{
+  .deals-img {
     display: flex;
     flex-direction: column;
     margin-top: 0px;
     row-gap: 20px;
   }
-  .overlay-text-paragraph-big-img{
+  .overlay-text-paragraph-big-img {
     font-size: 20px;
   }
-  .overlay-text-anchor-big-img{
+  .overlay-text-anchor-big-img {
     font-size: 16px;
     font-weight: 600;
     padding: 10px 40px;
